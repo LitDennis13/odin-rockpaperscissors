@@ -5,11 +5,65 @@
 <header>
     <meta charset="utf-8">
     <title>Odin Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./styles.css">
 </header>
 
 <body>
+    <div id="page-container">
+        <h1 id="title">Rock Paper or Scissors</h1>
+        <div id="score-container">
+            <div id="player-score-container">
+                <p>Your Score</p>
+                <p id="player-score-text">0</p>
+            </div>
+            <div id="computer-score-container">
+                <p>Computer Score</p>
+                <p id="computer-score-text">0</p>
+            </div>
+        </div>
+        <div id="player-options-div" class="player-options">
+        
+            <button id="rock">
+                <img id="rock-img" src="https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296854_1280.png">
+            </button>
+        
+        
+            <button id="paper">
+                <img id="paper-img" src="https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296855_1280.png">
+            </button>
+        
+        
+            <button id="scissors">
+                <img id="scissors-img" src="https://www.clker.com/cliparts/8/B/i/M/Y/Z/scissors-md.png">
+            </button>
+            
+        </div>
+        <div id="results">
+            <div id="choices">
+                <div id="player-choice">
+                    <p>You Chose:</p>
+                    <p id="player-choice-text"></p>
+                </div>
+                <div id="computer-choice">
+                    <p>The Computer Chose:</p>
+                    <p id="computer-choice-text"></p>
+                </div>
+            </div>
+            <p id="result"></p>
+            <p id="explantion"></p>
+        </div>
+    </div>
+    
+
+
+
+
     <script src="./script.js"></script>
-    <h1>Rock Paper Scissors</h1>
 </body>
 
 </html>
+
+<!--
+    <button id="reset-button">Reset</button>
+    
+-->
